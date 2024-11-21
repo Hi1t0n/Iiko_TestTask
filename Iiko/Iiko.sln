@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iiko.API", "Iiko.API\Iiko.API.csproj", "{AB0FAA93-9BC1-4A1E-A571-597327B5E237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iiko.Infrastructure", "Iiko.Infrastructure\Iiko.Infrastructure.csproj", "{43A91286-913E-4C92-82C3-3B4D7D62AE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iiko.Domain", "Iiko.Domain\Iiko.Domain.csproj", "{433386AE-7396-475F-8654-CB6255CF3842}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB0FAA93-9BC1-4A1E-A571-597327B5E237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0FAA93-9BC1-4A1E-A571-597327B5E237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0FAA93-9BC1-4A1E-A571-597327B5E237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0FAA93-9BC1-4A1E-A571-597327B5E237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A91286-913E-4C92-82C3-3B4D7D62AE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A91286-913E-4C92-82C3-3B4D7D62AE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A91286-913E-4C92-82C3-3B4D7D62AE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A91286-913E-4C92-82C3-3B4D7D62AE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433386AE-7396-475F-8654-CB6255CF3842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433386AE-7396-475F-8654-CB6255CF3842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433386AE-7396-475F-8654-CB6255CF3842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433386AE-7396-475F-8654-CB6255CF3842}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
