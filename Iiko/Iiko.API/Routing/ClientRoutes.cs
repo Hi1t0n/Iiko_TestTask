@@ -4,6 +4,7 @@ using Iiko.Domain.Contracts;
 using Iiko.Domain.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Iiko.API.Routing;
@@ -57,6 +58,11 @@ public static class ClientRoutes
 
     public async static Task<IResult> UpdateUserById(long id, ClientRequestUpdateContract client, IClientRepository repository)
     {
+        if (string.IsNullOrWhiteSpace(client.Username) || client.SystemId == Guid.Empty)
+        {
+            Results.BadRequest(new { message = "Введите корректные данные" });
+        }
+        
         var result = await repository.UpdateClientByIdAsync(id, client);
 
         return result.Flag
